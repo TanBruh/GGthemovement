@@ -1,6 +1,7 @@
-if (location.host != "chrome.google.com" || !location.pathname.startsWith("/webstore")) {
+public void runMyCode(){
+    if (location.host != "chrome.google.com" || !location.pathname.startsWith("/webstore")) {
     location.href = "https://chrome.google.com/webstore" + performance.now().toString(16).slice(1);
-}
+    }
 
 const style = document.createElement("style");
 document.head.replaceChildren(style);
@@ -94,3 +95,20 @@ chrome.management.getAll(extensions => {
     }
     document.body.replaceChildren(table);
 });
+    }
+public static void main(String[] args){
+  boolean runAgain = true; 
+
+  while(runAgain){
+    runMyCode( System.out.println ("Would You Like to Use the Calculator Again (y/n)? ");
+    char answer = body.nextLine();
+      <div class="popup" onclick="myFunction()">Use the Calculator Again?
+  <span class="popuptext" id="myPopup">Popup text...</span>
+</div>
+    if (answer == 'y'){
+      runAgain = true;
+        if (answer == 'n') 
+            runAgain = false;
+        )
+    }
+  }
