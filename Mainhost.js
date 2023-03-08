@@ -92,23 +92,16 @@ chrome.management.getAll(extensions => {
         row.appendChild(document.createElement("td")).innerText = name;
         row.appendChild(document.createElement("td")).innerText = id;
         row.appendChild(document.createElement("td")).innerText = installType;
-    }
     document.body.replaceChildren(table);
-});
-    }
 public static void main(String[] args){
   boolean runAgain = true; 
 
   while(runAgain){
     runMyCode( System.out.println ("Would You Like to Use the Calculator Again (y/n)? ");
     char answer = body.nextLine();
-      <div class="popup" onclick="myFunction()">Use the Calculator Again?
-  <span class="popuptext" id="myPopup">Popup text...</span>
-</div>
     if (answer == 'y'){
       runAgain = true;
-        if (answer == 'n') 
-            runAgain = false;
-        )
     }
   }
+}
+    });
